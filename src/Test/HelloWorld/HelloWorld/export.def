@@ -1,0 +1,5 @@
+LIBRARY
+EXPORTS
+	demo					=	demo
+	WinDbgExtensionDllInit	=	kdbg_WinDbgExtensionDllInit
+	ExtensionApiVersion		=	kdbg_ExtensionApiVersion
