@@ -4,7 +4,7 @@
 
 PDEBUG_CLIENT2   g_Client = NULL;
 PDEBUG_CONTROL2  g_Control = NULL;
-/// Step 1. 加载dll
+/// Step 1. initialize dll
 HRESULT CALLBACK  DebugExtensionInitialize(PULONG Version, PULONG Flags)
 {
 	*Version = DEBUG_EXTENSION_VERSION(1, 0);
@@ -14,8 +14,8 @@ HRESULT CALLBACK  DebugExtensionInitialize(PULONG Version, PULONG Flags)
 }
 
 ///
-/// 可选的导出
-/// Step 0. 卸载dll
+/// optional export function
+/// Step 0. uninitialize dll
 VOID CALLBACK DebugExtensionUninitialize()
 {
 	g_Control->Output(DEBUG_OUTPUT_NORMAL,"unload dll\n");

@@ -1,0 +1,7 @@
+LIBRARY
+EXPORTS
+	demo
+    DebugExtensionInitialize
+    DebugExtensionUninitialize
+    DebugExtensionNotify
+    help
