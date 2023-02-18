@@ -1,0 +1,6 @@
+LIBRARY
+EXPORTS
+	demo					=	testsleep
+	DebugExtensionInitialize	=	DebugExtensionInitialize
+	DebugExtensionUninitialize	=	DebugExtensionUninitialize
+	DebugExtensionNotify	=	DebugExtensionNotify

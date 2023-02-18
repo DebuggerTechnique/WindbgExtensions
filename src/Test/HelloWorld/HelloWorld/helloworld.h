@@ -22,3 +22,6 @@ LPEXT_API_VERSION WDBGAPI kdbg_ExtensionApiVersion(void);
 VOID WDBGAPI kdbg_WinDbgExtensionDllInit(PWINDBG_EXTENSION_APIS lpExtensionApis, USHORT usMajorVersion, USHORT usMinorVersion);
 
 DECLARE_API(demo);
+DECLARE_API(read);
+
+VOID ErrorCode(int errorcode);

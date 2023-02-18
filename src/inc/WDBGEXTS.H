@@ -296,9 +296,9 @@ ULONG
     ULONG             Frames
     );
 
-typedef struct _WINDBG_EXTENSION_APIS {
+typedef struct _WINDBG_EXTENSION_APIS {                                     // windbg扩展命令接口定义
     ULONG                                  nSize;
-    PWINDBG_OUTPUT_ROUTINE                 lpOutputRoutine;
+    PWINDBG_OUTPUT_ROUTINE                 lpOutputRoutine;                 // 输出信息到windbg控制台
     PWINDBG_GET_EXPRESSION                 lpGetExpressionRoutine;
     PWINDBG_GET_SYMBOL                     lpGetSymbolRoutine;
     PWINDBG_DISASM                         lpDisasmRoutine;
