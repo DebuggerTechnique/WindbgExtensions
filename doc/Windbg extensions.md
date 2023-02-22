@@ -383,11 +383,31 @@ public:
 
 
 
+## 调试.net
+
+> https://mcfunley.com/the-debugger-extension-part-1-what-is-a-dbgeng-extension    engextcpp style 
+
+
+
 > https://mcfunley.com/the-debugger-extension-part-3-a-crash-course-in-net-object-layout
 >
 > .NET 调试
 
 
 
+## c# -> com tlb
 
+> https://reversingonwindows.blogspot.com/2012/06/calling-c-code-from-windbg-extension.html
+
+> c++ import
+
+
+
+## clrmd
+
+> https://minidump.net/writing-native-windbg-extensions-in-c-5390726f3cec
+>
+> https://labs.criteo.com/2017/06/clrmd-part-5-how-to-use-clrmd-to-extend-sos-in-windbg/
+>
+> https://medium.com/criteo-engineering/extending-the-new-windbg-part-3-embedding-a-c-interpreter-c362b844208a
 
