@@ -23,3 +23,5 @@
 > Dotnet
 >
 > [Dotnet](src\Dotnet\WindbgExtension)
+>
+> Credits to https://github.com/kevingosse/Dotnetconf2022/
