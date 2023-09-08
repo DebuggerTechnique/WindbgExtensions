@@ -32,7 +32,7 @@ function initializeScript()
     //
     return [
         new host.apiVersionSupport(1, 7),
-        new host.functionAlias(ldtp,'ldtp'),
+        new host.functionAlias(bopin,'bopin'),
         ];
 }
 function bopin(){
