@@ -39,3 +39,33 @@ function bopin(){
     return null;
 }
 ```
+
+## multi condition breakpoint
+```
+bp /w "@$scriptContents.mulbp()" ntdll!NtDeviceIoControlFile
+
+"use strict";
+
+function initializeScript()
+{
+    //
+    // Return an array of registration objects to modify the object model of the debugger
+    // See the following for more details:
+    //
+    //     https://aka.ms/JsDbgExt
+    //
+    return [
+        new host.apiVersionSupport(1, 7),
+        new host.functionAlias(mulbp,'mulbp'),
+        ];
+}
+
+function mulbp(){
+    // retrieve args info and register
+    return false;
+}
+
+```
+
+
+
