@@ -1,4 +1,8 @@
 # windbg js script
+## collections
+> strings | mem | hexdump        
+> https://github.com/KasperskyLab/WinDbg-JS-Scripts/blob/master/memory.js#L181     
+
 
 ## invoke commands
 ```js
